@@ -9,7 +9,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-const apiKey = "36bd95dcee3866f9d399083d5a9cf83c"
+const apiKey = "YOUR_API_KEY"
 
 type WeatherResponse struct {
 	Name string `json:"name"`
